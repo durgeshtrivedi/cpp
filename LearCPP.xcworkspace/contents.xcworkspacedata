@@ -4,10 +4,4 @@
    <FileRef
       location = "group:LearnCpp/LearnCpp.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:inital.cpp">
-   </FileRef>
-   <FileRef
-      location = "group:inital.hpp">
-   </FileRef>
 </Workspace>

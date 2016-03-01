@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D159AA11C84773200719056 /* Structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D159A9F1C84773200719056 /* Structure.cpp */; };
+		9D159AA41C85AC9B00719056 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D159AA21C85AC9B00719056 /* Pointers.cpp */; };
 		9D29B8891C74862D00808819 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D29B8881C74862D00808819 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D159A9F1C84773200719056 /* Structure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Structure.cpp; sourceTree = "<group>"; };
+		9D159AA21C85AC9B00719056 /* Pointers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers.cpp; sourceTree = "<group>"; };
 		9D29B8851C74862D00808819 /* LearnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D29B8881C74862D00808819 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9D29B88F1C74897800808819 /* includefile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = includefile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				9D29B8881C74862D00808819 /* main.cpp */,
+				9D29B88F1C74897800808819 /* includefile.h */,
+				9D159A9F1C84773200719056 /* Structure.cpp */,
+				9D159AA21C85AC9B00719056 /* Pointers.cpp */,
 			);
 			path = LearnCpp;
 			sourceTree = "<group>";
@@ -119,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D29B8891C74862D00808819 /* main.cpp in Sources */,
+				9D159AA11C84773200719056 /* Structure.cpp in Sources */,
+				9D159AA41C85AC9B00719056 /* Pointers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +247,7 @@
 				9D29B88E1C74862D00808819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
