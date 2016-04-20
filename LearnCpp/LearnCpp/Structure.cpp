@@ -11,7 +11,7 @@
 using namespace std;
 
 void structureValues();
-
+//void structurePointer(const Firstimer *timer );
 struct Firstimer
 {
 
@@ -23,12 +23,22 @@ struct Firstimer
 };
 
 
-
+void structurePointer(const Firstimer *timer );
 
 //int main()
 //{
 //    structureValues();
+//    
+//    Firstimer timer = {10,"Durgesh", "Pune"};
+//    structurePointer(&timer);
 //}
+
+void structurePointer(const Firstimer *timer )
+{
+    cout << timer->count << endl ;
+    cout << timer->name << endl ;
+    cout << timer->address << endl ;
+}
 
 void structureValues()
 {
@@ -68,7 +78,7 @@ void structureValues()
         string value;
     }thirdperson = {30,"hello"};
     
-    //structure with not type
+    //structure with no type
     
     struct{
         int value;
@@ -83,6 +93,35 @@ void structureValues()
     
     Firstimer  people[2]  = { {10,"Hello1","hello"},
         {20,"what","when"}};
+    
+    
+}
+
+
+void newStruct(){
+
+struct inflamable
+    {
+        int value;
+        string name;
+    };
+
+    inflamable newValue  {1, "hello"};
+    
+    inflamable *assign = new inflamable;
+    
+    cout << "This is the way to get the dynamic structure value " << assign->value;
+    
+     cout << "The other way to access is   " << (*assign).value;
+    
+    cout << "This is the way to get the normally  " << newValue.value;
+    
+    delete assign;
+    
+    int *ps ;
+    
+    *ps = 110 ;
+    
     
     
 }
