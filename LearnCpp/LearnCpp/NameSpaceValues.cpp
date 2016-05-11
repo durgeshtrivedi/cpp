@@ -78,15 +78,15 @@ using namespace elements:: fire;
 
 using HIll:: fetch;  // make fetch as a global namespce from from hill
 
-int main()
-{
-    cin >> fetch; // read the value in global fatch
-    
-    cout << elements ::fire::water ;
-    
-    cout << Myth:: water;  // you can now directly call water from myth
-
-    cout << Myth:: earth;  // you can now directly call water from myth
-}
+//int main()
+//{
+//    cin >> fetch; // read the value in global fatch
+//    
+//    cout << elements ::fire::water ;
+//    
+//    cout << Myth:: water;  // you can now directly call water from myth
+//
+//    cout << Myth:: earth;  // you can now directly call water from myth
+//}
 
 

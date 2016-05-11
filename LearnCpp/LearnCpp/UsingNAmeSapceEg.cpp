@@ -16,17 +16,17 @@ void other(void);
 
 void another(void);
 
-int main(void)
-{
-    using debt:: Debt;
-    using debt:: showDebt;
-    
-    Debt golf = { {"Benny", "Goatsniff"}, 120.0 };
-    showDebt(golf);
-    other();
-    another();
-    return 0;
-}
+//int main(void)
+//{
+//    using debt:: Debt;
+//    using debt:: showDebt;
+//    
+//    Debt golf = { {"Benny", "Goatsniff"}, 120.0 };
+//    showDebt(golf);
+//    other();
+//    another();
+//    return 0;
+//}
 
 void other(void)
 {

@@ -21,10 +21,10 @@ typedef const double * (*function_pointer) (const double *, int a);
 
 //int main()
 //{
-//    main1();
+//    main2();
 //}
 
-int main1()
+int main2()
 {
    int (*pter) (char *);
    const double  value1 [3] = {1.0,2.0,3.0};

@@ -15,8 +15,13 @@ const int BUF = 512;
 const int N = 5;
 
 char buffer[BUF];
+int main1();
+//int main()
+//{
+//    main3();
+//}
 
-int main()
+int main3()
 {
     using namespace std;
     double *p1,*p2;

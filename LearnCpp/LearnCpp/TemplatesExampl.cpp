@@ -40,7 +40,13 @@ T Add(T a, T b);
 template <class  T>
 auto hello(T x, T y) -> decltype(x+y);
 
-int main()
+int main4();
+//int main()
+//{
+//    main1();
+//}
+
+int main4()
 {
     int value =  400;
     int value1 = 500;
