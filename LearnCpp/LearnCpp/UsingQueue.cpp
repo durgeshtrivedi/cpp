@@ -14,8 +14,14 @@
 const int MIN_PER_HR = 60;
 bool newcustomer(double x); // is there a new customer?
 
+int main15();
 
-int main()
+//int main()
+//{
+//    int main15();
+//}
+
+int main15()
 {
     using std::cin;
     using std::cout;

@@ -25,8 +25,13 @@
 		9D6D4BF81CCF9A77004532C8 /* Usetime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D4BF71CCF9A77004532C8 /* Usetime.cpp */; };
 		9D6D4BFB1CD0E623004532C8 /* StringBad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D4BF91CD0E623004532C8 /* StringBad.cpp */; };
 		9D6D4BFD1CD0FAB1004532C8 /* UsingStringBad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D4BFC1CD0FAB1004532C8 /* UsingStringBad.cpp */; };
+		9D8713B21CEDD6FE00F34439 /* StringSmarPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8713B01CEDD6FE00F34439 /* StringSmarPtr.cpp */; };
+		9D8713B41CEDF19000F34439 /* IteratorValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8713B31CEDF19000F34439 /* IteratorValue.cpp */; };
+		9D8713B61CF5BDF200F34439 /* LambadaExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8713B51CF5BDF200F34439 /* LambadaExpression.cpp */; };
 		9D9A92281CA1775200860197 /* readCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A92261CA1775200860197 /* readCharacters.cpp */; };
 		9D9A922A1CA1862E00860197 /* TwodimensionalArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A92291CA1862E00860197 /* TwodimensionalArray.cpp */; };
+		9DBA39C21CE9D6D30084FF5C /* MutipleInhertance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C01CE9D6D30084FF5C /* MutipleInhertance.cpp */; };
+		9DBA39C51CE9E13B0084FF5C /* VirtualBAseClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */; };
 		9DF23D1F1CA9782D0050BB5F /* OutPutFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF23D1E1CA9782D0050BB5F /* OutPutFile.cpp */; };
 		9DF23D211CB29DAB0050BB5F /* arrayElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF23D201CB29DAB0050BB5F /* arrayElements.cpp */; };
 		9DF23D231CB539030050BB5F /* StringFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF23D221CB539030050BB5F /* StringFunc.cpp */; };
@@ -35,6 +40,10 @@
 		9DFBBCA21CE334740073F335 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBBCA01CE334740073F335 /* Queue.cpp */; };
 		9DFBBCA51CE34A920073F335 /* Customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBBCA31CE34A920073F335 /* Customer.cpp */; };
 		9DFBBCA71CE360300073F335 /* UsingQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBBCA61CE360300073F335 /* UsingQueue.cpp */; };
+		9DFBBCAA1CE36C930073F335 /* TableTannisPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBBCA81CE36C930073F335 /* TableTannisPlayer.cpp */; };
+		9DFBBCB01CE36EF20073F335 /* RatedPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBBCAE1CE36EF20073F335 /* RatedPlayer.cpp */; };
+		9DFBBCB31CE375800073F335 /* TablePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBBCB11CE375800073F335 /* TablePlayer.cpp */; };
+		9DFBBCB61CE5CFD30073F335 /* VirtualFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBBCB41CE5CFD30073F335 /* VirtualFunction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,9 +85,17 @@
 		9D6D4BF91CD0E623004532C8 /* StringBad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringBad.cpp; sourceTree = "<group>"; };
 		9D6D4BFA1CD0E623004532C8 /* StringBad.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringBad.hpp; sourceTree = "<group>"; };
 		9D6D4BFC1CD0FAB1004532C8 /* UsingStringBad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UsingStringBad.cpp; sourceTree = "<group>"; };
+		9D8713B01CEDD6FE00F34439 /* StringSmarPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringSmarPtr.cpp; sourceTree = "<group>"; };
+		9D8713B11CEDD6FE00F34439 /* StringSmarPtr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringSmarPtr.hpp; sourceTree = "<group>"; };
+		9D8713B31CEDF19000F34439 /* IteratorValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IteratorValue.cpp; sourceTree = "<group>"; };
+		9D8713B51CF5BDF200F34439 /* LambadaExpression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LambadaExpression.cpp; sourceTree = "<group>"; };
 		9D9A92241CA03B1900860197 /* Operators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Operators.cpp; sourceTree = "<group>"; };
 		9D9A92261CA1775200860197 /* readCharacters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readCharacters.cpp; sourceTree = "<group>"; };
 		9D9A92291CA1862E00860197 /* TwodimensionalArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwodimensionalArray.cpp; sourceTree = "<group>"; };
+		9DBA39C01CE9D6D30084FF5C /* MutipleInhertance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MutipleInhertance.cpp; sourceTree = "<group>"; };
+		9DBA39C11CE9D6D30084FF5C /* MutipleInhertance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MutipleInhertance.hpp; sourceTree = "<group>"; };
+		9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualBAseClass.cpp; sourceTree = "<group>"; };
+		9DBA39C41CE9E13B0084FF5C /* VirtualBAseClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VirtualBAseClass.hpp; sourceTree = "<group>"; };
 		9DF23D1E1CA9782D0050BB5F /* OutPutFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OutPutFile.cpp; sourceTree = "<group>"; };
 		9DF23D201CB29DAB0050BB5F /* arrayElements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arrayElements.cpp; sourceTree = "<group>"; };
 		9DF23D221CB539030050BB5F /* StringFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringFunc.cpp; sourceTree = "<group>"; };
@@ -89,6 +106,13 @@
 		9DFBBCA31CE34A920073F335 /* Customer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Customer.cpp; sourceTree = "<group>"; };
 		9DFBBCA41CE34A920073F335 /* Customer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Customer.hpp; sourceTree = "<group>"; };
 		9DFBBCA61CE360300073F335 /* UsingQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UsingQueue.cpp; sourceTree = "<group>"; };
+		9DFBBCA81CE36C930073F335 /* TableTannisPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TableTannisPlayer.cpp; sourceTree = "<group>"; };
+		9DFBBCA91CE36C930073F335 /* TableTannisPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TableTannisPlayer.hpp; sourceTree = "<group>"; };
+		9DFBBCAE1CE36EF20073F335 /* RatedPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RatedPlayer.cpp; sourceTree = "<group>"; };
+		9DFBBCAF1CE36EF20073F335 /* RatedPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RatedPlayer.hpp; sourceTree = "<group>"; };
+		9DFBBCB11CE375800073F335 /* TablePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TablePlayer.cpp; sourceTree = "<group>"; };
+		9DFBBCB41CE5CFD30073F335 /* VirtualFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualFunction.cpp; sourceTree = "<group>"; };
+		9DFBBCB51CE5CFD30073F335 /* VirtualFunction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VirtualFunction.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,16 +146,29 @@
 			isa = PBXGroup;
 			children = (
 				9D29B8881C74862D00808819 /* main.cpp */,
+				9D8713B51CF5BDF200F34439 /* LambadaExpression.cpp */,
 				9D29B88F1C74897800808819 /* includefile.h */,
 				9D159A9F1C84773200719056 /* Structure.cpp */,
 				9D159AA21C85AC9B00719056 /* Pointers.cpp */,
 				9D9A92241CA03B1900860197 /* Operators.cpp */,
 				9D9A92261CA1775200860197 /* readCharacters.cpp */,
+				9DFBBCA81CE36C930073F335 /* TableTannisPlayer.cpp */,
+				9DFBBCA91CE36C930073F335 /* TableTannisPlayer.hpp */,
+				9DBA39C01CE9D6D30084FF5C /* MutipleInhertance.cpp */,
+				9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */,
+				9D8713B31CEDF19000F34439 /* IteratorValue.cpp */,
+				9D8713B01CEDD6FE00F34439 /* StringSmarPtr.cpp */,
+				9D8713B11CEDD6FE00F34439 /* StringSmarPtr.hpp */,
+				9DBA39C41CE9E13B0084FF5C /* VirtualBAseClass.hpp */,
+				9DBA39C11CE9D6D30084FF5C /* MutipleInhertance.hpp */,
 				9D9A92291CA1862E00860197 /* TwodimensionalArray.cpp */,
 				9DF23D1E1CA9782D0050BB5F /* OutPutFile.cpp */,
 				9DF23D201CB29DAB0050BB5F /* arrayElements.cpp */,
 				9DF23D221CB539030050BB5F /* StringFunc.cpp */,
 				9DF23D241CB5494D0050BB5F /* FunctionPointer.cpp */,
+				9DFBBCAE1CE36EF20073F335 /* RatedPlayer.cpp */,
+				9DFBBCB11CE375800073F335 /* TablePlayer.cpp */,
+				9DFBBCAF1CE36EF20073F335 /* RatedPlayer.hpp */,
 				9DF23D271CB674900050BB5F /* ReferenceVariable.cpp */,
 				9D6A1D311CBD1F1B00898CC6 /* TemplatesExampl.cpp */,
 				9D6D4BD71CC64C37004532C8 /* Newoperator.cpp */,
@@ -140,6 +177,8 @@
 				9DFBBCA11CE334740073F335 /* Queue.hpp */,
 				9D6D4BD91CC7972B004532C8 /* NameSpaceValues.cpp */,
 				9D6D4BDB1CC7A830004532C8 /* NameSpaceExample.cpp */,
+				9DFBBCB41CE5CFD30073F335 /* VirtualFunction.cpp */,
+				9DFBBCB51CE5CFD30073F335 /* VirtualFunction.hpp */,
 				9D6D4BDC1CC7A830004532C8 /* NameSpaceExample.hpp */,
 				9DFBBCA31CE34A920073F335 /* Customer.cpp */,
 				9DFBBCA41CE34A920073F335 /* Customer.hpp */,
@@ -220,8 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6D4BEC1CC90EF7004532C8 /* Stack.cpp in Sources */,
+				9D8713B61CF5BDF200F34439 /* LambadaExpression.cpp in Sources */,
+				9DFBBCAA1CE36C930073F335 /* TableTannisPlayer.cpp in Sources */,
 				9D9A92281CA1775200860197 /* readCharacters.cpp in Sources */,
+				9DBA39C21CE9D6D30084FF5C /* MutipleInhertance.cpp in Sources */,
 				9DF23D281CB674900050BB5F /* ReferenceVariable.cpp in Sources */,
+				9D8713B41CEDF19000F34439 /* IteratorValue.cpp in Sources */,
 				9D6D4BD81CC64C37004532C8 /* Newoperator.cpp in Sources */,
 				9D6D4BFB1CD0E623004532C8 /* StringBad.cpp in Sources */,
 				9D6D4BEF1CC912F3004532C8 /* Stacker.cpp in Sources */,
@@ -232,8 +275,11 @@
 				9DFBBCA71CE360300073F335 /* UsingQueue.cpp in Sources */,
 				9D6D4BE71CC8E6AC004532C8 /* Stock10.cpp in Sources */,
 				9D6D4BE41CC7CC9F004532C8 /* UseStock.cpp in Sources */,
+				9DFBBCB31CE375800073F335 /* TablePlayer.cpp in Sources */,
+				9D8713B21CEDD6FE00F34439 /* StringSmarPtr.cpp in Sources */,
 				9D6D4BDA1CC7972B004532C8 /* NameSpaceValues.cpp in Sources */,
 				9D6D4BDD1CC7A830004532C8 /* NameSpaceExample.cpp in Sources */,
+				9DFBBCB61CE5CFD30073F335 /* VirtualFunction.cpp in Sources */,
 				9DF23D1F1CA9782D0050BB5F /* OutPutFile.cpp in Sources */,
 				9D159AA11C84773200719056 /* Structure.cpp in Sources */,
 				9DFBBCA21CE334740073F335 /* Queue.cpp in Sources */,
@@ -243,10 +289,12 @@
 				9DF23D261CB5494D0050BB5F /* FunctionPointer.cpp in Sources */,
 				9D6D4BE91CC8E96A004532C8 /* UseStock10.cpp in Sources */,
 				9D6D4BFD1CD0FAB1004532C8 /* UsingStringBad.cpp in Sources */,
+				9DFBBCB01CE36EF20073F335 /* RatedPlayer.cpp in Sources */,
 				9D9A922A1CA1862E00860197 /* TwodimensionalArray.cpp in Sources */,
 				9D6D4BDF1CC7AA71004532C8 /* UsingNAmeSapceEg.cpp in Sources */,
 				9DF23D211CB29DAB0050BB5F /* arrayElements.cpp in Sources */,
 				9D6D4BE21CC7C0EA004532C8 /* Stock0.cpp in Sources */,
+				9DBA39C51CE9E13B0084FF5C /* VirtualBAseClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
