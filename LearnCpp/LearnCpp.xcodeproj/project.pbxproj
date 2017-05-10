@@ -32,6 +32,11 @@
 		9D9A922A1CA1862E00860197 /* TwodimensionalArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A92291CA1862E00860197 /* TwodimensionalArray.cpp */; };
 		9DBA39C21CE9D6D30084FF5C /* MutipleInhertance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C01CE9D6D30084FF5C /* MutipleInhertance.cpp */; };
 		9DBA39C51CE9E13B0084FF5C /* VirtualBAseClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */; };
+		9DC1816A1EC2EB7D0013B3DE /* FileOutPut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */; };
+		9DDBB2791EADE0E800FB6624 /* Start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB2781EADE0E800FB6624 /* Start.cpp */; };
+		9DDBB27B1EADE10F00FB6624 /* Mainheader.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB27A1EADE10F00FB6624 /* Mainheader.hpp */; };
+		9DDBB27E1EB0A94D00FB6624 /* structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB27C1EB0A94D00FB6624 /* structure.cpp */; };
+		9DDBB2821EB0B56500FB6624 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB2801EB0B56500FB6624 /* Pointers.cpp */; };
 		9DF23D1F1CA9782D0050BB5F /* OutPutFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF23D1E1CA9782D0050BB5F /* OutPutFile.cpp */; };
 		9DF23D211CB29DAB0050BB5F /* arrayElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF23D201CB29DAB0050BB5F /* arrayElements.cpp */; };
 		9DF23D231CB539030050BB5F /* StringFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF23D221CB539030050BB5F /* StringFunc.cpp */; };
@@ -96,6 +101,15 @@
 		9DBA39C11CE9D6D30084FF5C /* MutipleInhertance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MutipleInhertance.hpp; sourceTree = "<group>"; };
 		9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualBAseClass.cpp; sourceTree = "<group>"; };
 		9DBA39C41CE9E13B0084FF5C /* VirtualBAseClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VirtualBAseClass.hpp; sourceTree = "<group>"; };
+		9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileOutPut.cpp; sourceTree = "<group>"; };
+		9DC181691EC2EB7D0013B3DE /* FileOutPut.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FileOutPut.hpp; path = ../FileOutPut.hpp; sourceTree = "<group>"; };
+		9DDBB2781EADE0E800FB6624 /* Start.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Start.cpp; sourceTree = "<group>"; };
+		9DDBB27A1EADE10F00FB6624 /* Mainheader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mainheader.hpp; sourceTree = "<group>"; };
+		9DDBB27C1EB0A94D00FB6624 /* structure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = structure.cpp; path = headers/structure.cpp; sourceTree = "<group>"; };
+		9DDBB27D1EB0A94D00FB6624 /* structure.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = structure.hpp; sourceTree = "<group>"; };
+		9DDBB27F1EB0B02200FB6624 /* stdheader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stdheader.hpp; sourceTree = "<group>"; };
+		9DDBB2801EB0B56500FB6624 /* Pointers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pointers.cpp; path = headers/Pointers.cpp; sourceTree = "<group>"; };
+		9DDBB2811EB0B56500FB6624 /* Pointers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pointers.hpp; sourceTree = "<group>"; };
 		9DF23D1E1CA9782D0050BB5F /* OutPutFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OutPutFile.cpp; sourceTree = "<group>"; };
 		9DF23D201CB29DAB0050BB5F /* arrayElements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arrayElements.cpp; sourceTree = "<group>"; };
 		9DF23D221CB539030050BB5F /* StringFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringFunc.cpp; sourceTree = "<group>"; };
@@ -129,6 +143,7 @@
 		9D29B87C1C74862D00808819 = {
 			isa = PBXGroup;
 			children = (
+				9DDBB2761EADE0CD00FB6624 /* LearnCpppart2 */,
 				9D29B8871C74862D00808819 /* LearnCpp */,
 				9D29B8861C74862D00808819 /* Products */,
 			);
@@ -202,6 +217,31 @@
 			path = LearnCpp;
 			sourceTree = "<group>";
 		};
+		9DDBB2761EADE0CD00FB6624 /* LearnCpppart2 */ = {
+			isa = PBXGroup;
+			children = (
+				9DDBB2771EADE0CD00FB6624 /* headers */,
+				9DDBB2781EADE0E800FB6624 /* Start.cpp */,
+				9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */,
+				9DDBB2801EB0B56500FB6624 /* Pointers.cpp */,
+				9DDBB27C1EB0A94D00FB6624 /* structure.cpp */,
+			);
+			name = LearnCpppart2;
+			path = ../LearnCpppart2;
+			sourceTree = "<group>";
+		};
+		9DDBB2771EADE0CD00FB6624 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				9DDBB27A1EADE10F00FB6624 /* Mainheader.hpp */,
+				9DDBB27F1EB0B02200FB6624 /* stdheader.hpp */,
+				9DDBB2811EB0B56500FB6624 /* Pointers.hpp */,
+				9DDBB27D1EB0A94D00FB6624 /* structure.hpp */,
+				9DC181691EC2EB7D0013B3DE /* FileOutPut.hpp */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,7 +312,9 @@
 				9D29B8891C74862D00808819 /* main.cpp in Sources */,
 				9D6D4BF61CCF9988004532C8 /* Time.cpp in Sources */,
 				9DF23D231CB539030050BB5F /* StringFunc.cpp in Sources */,
+				9DDBB2791EADE0E800FB6624 /* Start.cpp in Sources */,
 				9DFBBCA71CE360300073F335 /* UsingQueue.cpp in Sources */,
+				9DC1816A1EC2EB7D0013B3DE /* FileOutPut.cpp in Sources */,
 				9D6D4BE71CC8E6AC004532C8 /* Stock10.cpp in Sources */,
 				9D6D4BE41CC7CC9F004532C8 /* UseStock.cpp in Sources */,
 				9DFBBCB31CE375800073F335 /* TablePlayer.cpp in Sources */,
@@ -288,6 +330,9 @@
 				9D6A1D321CBD1F1B00898CC6 /* TemplatesExampl.cpp in Sources */,
 				9DF23D261CB5494D0050BB5F /* FunctionPointer.cpp in Sources */,
 				9D6D4BE91CC8E96A004532C8 /* UseStock10.cpp in Sources */,
+				9DDBB2821EB0B56500FB6624 /* Pointers.cpp in Sources */,
+				9DDBB27E1EB0A94D00FB6624 /* structure.cpp in Sources */,
+				9DDBB27B1EADE10F00FB6624 /* Mainheader.hpp in Sources */,
 				9D6D4BFD1CD0FAB1004532C8 /* UsingStringBad.cpp in Sources */,
 				9DFBBCB01CE36EF20073F335 /* RatedPlayer.cpp in Sources */,
 				9D9A922A1CA1862E00860197 /* TwodimensionalArray.cpp in Sources */,

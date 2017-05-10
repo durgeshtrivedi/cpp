@@ -58,9 +58,10 @@ public:
 void lambadamExpression();
 
 
-int main()
+int main203()
 {
     lambadamExpression();
+    return 0;
 }
 
 int main301()
