@@ -21,3 +21,9 @@ void pointerExample();
 void stringCompareExample();
 void endofFileExample();
 void fileIOExample();
+void array_Pointer();
+void functionPointer();
+void functionPointerExample();
+void passByReferenceExample();
+void functionTemplateExample();
+

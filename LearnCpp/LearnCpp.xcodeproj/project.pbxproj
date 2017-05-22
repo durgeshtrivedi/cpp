@@ -10,6 +10,9 @@
 		9D159AA11C84773200719056 /* Structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D159A9F1C84773200719056 /* Structure.cpp */; };
 		9D159AA41C85AC9B00719056 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D159AA21C85AC9B00719056 /* Pointers.cpp */; };
 		9D29B8891C74862D00808819 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D29B8881C74862D00808819 /* main.cpp */; };
+		9D44E6D31ECC73F500DA6667 /* FunctionPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D44E6D11ECC73F400DA6667 /* FunctionPointer.cpp */; };
+		9D4D00441ECDE3DD003EB501 /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D00421ECDE3DD003EB501 /* References.cpp */; };
+		9D4D00471ECF3396003EB501 /* FunctionTemplates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D00451ECF3396003EB501 /* FunctionTemplates.cpp */; };
 		9D6A1D321CBD1F1B00898CC6 /* TemplatesExampl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A1D311CBD1F1B00898CC6 /* TemplatesExampl.cpp */; };
 		9D6D4BD81CC64C37004532C8 /* Newoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D4BD71CC64C37004532C8 /* Newoperator.cpp */; };
 		9D6D4BDA1CC7972B004532C8 /* NameSpaceValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D4BD91CC7972B004532C8 /* NameSpaceValues.cpp */; };
@@ -33,6 +36,7 @@
 		9DBA39C21CE9D6D30084FF5C /* MutipleInhertance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C01CE9D6D30084FF5C /* MutipleInhertance.cpp */; };
 		9DBA39C51CE9E13B0084FF5C /* VirtualBAseClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */; };
 		9DC1816A1EC2EB7D0013B3DE /* FileOutPut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */; };
+		9DC1816D1EC32E120013B3DE /* ArrayPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1816B1EC32E120013B3DE /* ArrayPointer.cpp */; };
 		9DDBB2791EADE0E800FB6624 /* Start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB2781EADE0E800FB6624 /* Start.cpp */; };
 		9DDBB27B1EADE10F00FB6624 /* Mainheader.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB27A1EADE10F00FB6624 /* Mainheader.hpp */; };
 		9DDBB27E1EB0A94D00FB6624 /* structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB27C1EB0A94D00FB6624 /* structure.cpp */; };
@@ -69,6 +73,12 @@
 		9D29B8851C74862D00808819 /* LearnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D29B8881C74862D00808819 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9D29B88F1C74897800808819 /* includefile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = includefile.h; sourceTree = "<group>"; };
+		9D44E6D11ECC73F400DA6667 /* FunctionPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionPointer.cpp; sourceTree = "<group>"; };
+		9D44E6D21ECC73F400DA6667 /* FunctionPointer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FunctionPointer.hpp; path = ../FunctionPointer.hpp; sourceTree = "<group>"; };
+		9D4D00421ECDE3DD003EB501 /* References.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = References.cpp; sourceTree = "<group>"; };
+		9D4D00431ECDE3DD003EB501 /* References.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = References.hpp; path = ../References.hpp; sourceTree = "<group>"; };
+		9D4D00451ECF3396003EB501 /* FunctionTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionTemplates.cpp; sourceTree = "<group>"; };
+		9D4D00461ECF3396003EB501 /* FunctionTemplates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FunctionTemplates.hpp; path = ../FunctionTemplates.hpp; sourceTree = "<group>"; };
 		9D6A1D311CBD1F1B00898CC6 /* TemplatesExampl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TemplatesExampl.cpp; sourceTree = "<group>"; };
 		9D6D4BD71CC64C37004532C8 /* Newoperator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Newoperator.cpp; sourceTree = "<group>"; };
 		9D6D4BD91CC7972B004532C8 /* NameSpaceValues.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NameSpaceValues.cpp; sourceTree = "<group>"; };
@@ -103,6 +113,8 @@
 		9DBA39C41CE9E13B0084FF5C /* VirtualBAseClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VirtualBAseClass.hpp; sourceTree = "<group>"; };
 		9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileOutPut.cpp; sourceTree = "<group>"; };
 		9DC181691EC2EB7D0013B3DE /* FileOutPut.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FileOutPut.hpp; path = ../FileOutPut.hpp; sourceTree = "<group>"; };
+		9DC1816B1EC32E120013B3DE /* ArrayPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayPointer.cpp; sourceTree = "<group>"; };
+		9DC1816C1EC32E120013B3DE /* ArrayPointer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ArrayPointer.hpp; path = ../ArrayPointer.hpp; sourceTree = "<group>"; };
 		9DDBB2781EADE0E800FB6624 /* Start.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Start.cpp; sourceTree = "<group>"; };
 		9DDBB27A1EADE10F00FB6624 /* Mainheader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mainheader.hpp; sourceTree = "<group>"; };
 		9DDBB27C1EB0A94D00FB6624 /* structure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = structure.cpp; path = headers/structure.cpp; sourceTree = "<group>"; };
@@ -224,7 +236,11 @@
 				9DDBB2781EADE0E800FB6624 /* Start.cpp */,
 				9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */,
 				9DDBB2801EB0B56500FB6624 /* Pointers.cpp */,
+				9DC1816B1EC32E120013B3DE /* ArrayPointer.cpp */,
+				9D44E6D11ECC73F400DA6667 /* FunctionPointer.cpp */,
 				9DDBB27C1EB0A94D00FB6624 /* structure.cpp */,
+				9D4D00421ECDE3DD003EB501 /* References.cpp */,
+				9D4D00451ECF3396003EB501 /* FunctionTemplates.cpp */,
 			);
 			name = LearnCpppart2;
 			path = ../LearnCpppart2;
@@ -238,6 +254,10 @@
 				9DDBB2811EB0B56500FB6624 /* Pointers.hpp */,
 				9DDBB27D1EB0A94D00FB6624 /* structure.hpp */,
 				9DC181691EC2EB7D0013B3DE /* FileOutPut.hpp */,
+				9DC1816C1EC32E120013B3DE /* ArrayPointer.hpp */,
+				9D4D00431ECDE3DD003EB501 /* References.hpp */,
+				9D44E6D21ECC73F400DA6667 /* FunctionPointer.hpp */,
+				9D4D00461ECF3396003EB501 /* FunctionTemplates.hpp */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -298,8 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4D00441ECDE3DD003EB501 /* References.cpp in Sources */,
 				9D6D4BEC1CC90EF7004532C8 /* Stack.cpp in Sources */,
 				9D8713B61CF5BDF200F34439 /* LambadaExpression.cpp in Sources */,
+				9D4D00471ECF3396003EB501 /* FunctionTemplates.cpp in Sources */,
 				9DFBBCAA1CE36C930073F335 /* TableTannisPlayer.cpp in Sources */,
 				9D9A92281CA1775200860197 /* readCharacters.cpp in Sources */,
 				9DBA39C21CE9D6D30084FF5C /* MutipleInhertance.cpp in Sources */,
@@ -309,6 +331,7 @@
 				9D6D4BFB1CD0E623004532C8 /* StringBad.cpp in Sources */,
 				9D6D4BEF1CC912F3004532C8 /* Stacker.cpp in Sources */,
 				9DFBBCA51CE34A920073F335 /* Customer.cpp in Sources */,
+				9D44E6D31ECC73F500DA6667 /* FunctionPointer.cpp in Sources */,
 				9D29B8891C74862D00808819 /* main.cpp in Sources */,
 				9D6D4BF61CCF9988004532C8 /* Time.cpp in Sources */,
 				9DF23D231CB539030050BB5F /* StringFunc.cpp in Sources */,
@@ -332,6 +355,7 @@
 				9D6D4BE91CC8E96A004532C8 /* UseStock10.cpp in Sources */,
 				9DDBB2821EB0B56500FB6624 /* Pointers.cpp in Sources */,
 				9DDBB27E1EB0A94D00FB6624 /* structure.cpp in Sources */,
+				9DC1816D1EC32E120013B3DE /* ArrayPointer.cpp in Sources */,
 				9DDBB27B1EADE10F00FB6624 /* Mainheader.hpp in Sources */,
 				9D6D4BFD1CD0FAB1004532C8 /* UsingStringBad.cpp in Sources */,
 				9DFBBCB01CE36EF20073F335 /* RatedPlayer.cpp in Sources */,

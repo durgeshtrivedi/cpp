@@ -42,6 +42,28 @@ int main() {
             cout << "This is file I/O example " << endl;
             fileIOExample();
             break;
+        case 7:
+            cout << "Array pointer example  " << endl;
+            array_Pointer();
+            break;
+        case 8:
+            cout << "Function Pointer example" << endl;
+            functionPointer();
+            break;
+            
+        case 9:
+            cout << "Function Pointer example 2 "<< endl;
+            functionPointerExample();
+            break;
+            
+        case 10:
+            cout << "Example of references :" << endl;
+            passByReferenceExample();
+            break;
+        case 11:
+            cout << "Example for function template" << endl ;
+            functionTemplateExample();
+            break;
         default:
             
             if (option == 0) {
