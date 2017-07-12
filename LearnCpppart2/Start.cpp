@@ -8,6 +8,7 @@
 
 
 #include  "Mainheader.hpp"
+
 static int option = 0;
 int main() {
 
@@ -63,6 +64,15 @@ int main() {
         case 11:
             cout << "Example for function template" << endl ;
             functionTemplateExample();
+            break;
+            
+        case 12:
+            cout << "class Example " << endl;
+            classExample();
+            break;
+        case 13:
+            cout << "Operator overloading example " << endl;
+            operatorOVerloadingExample();
             break;
         default:
             
@@ -154,4 +164,130 @@ void endofFileExample() {
         count++;
     }
     cout << endl << count << " characters read\n";
+}
+
+void classExample() {
+    
+    //using constructor to creat new object
+    
+    Stock1 stock("MY company", 10, 20.0);  // 1 syntax for the constructo
+    
+    Stock1 stocky = Stock1("Your company", 10, 20.0);
+    
+    Stock1 fluffy_the_cat;
+    fluffy_the_cat.acquire("NanoSmart", 20, 12.50);
+    fluffy_the_cat.show();
+    fluffy_the_cat.buy(15, 18.125);
+    fluffy_the_cat.show();
+    fluffy_the_cat.sell(400, 20.00);
+    fluffy_the_cat.show();
+    fluffy_the_cat.buy(300000,40.125);
+    fluffy_the_cat.show();
+    fluffy_the_cat.sell(300000,0.125);
+    fluffy_the_cat.show();
+    
+    const int SKT = 4;
+    Stock1 stocks[SKT] = {
+    Stock1("My company", 10, 10.0),
+        Stock1("Your company", 10, 20.0),
+        Stock1("our company", 10, 30.0),
+        Stock1("WE company", 10, 40.0)
+    };
+    
+    cout << "Stock holding " << endl;
+    
+    for (int i = 0; i< SKT; i++) {
+        
+        stocks[i].show();
+    }
+    
+    const Stock1 *top = &stocks[0];
+    
+    for (int i = 0; i< SKT; i++) {
+        top = &top->topal(stocks[i]);
+        // now top points to the most valuable holding
+        std::cout << "\nMost valuable holding:\n";
+        top->show();
+        
+    }
+}
+ void operatorOVerloadingExample() {
+     Times planning;
+     Times coding(2, 40);
+     Times fixing(5, 55);
+     Times total;
+     
+     cout << "planning time = ";
+     planning.Show();
+     cout << endl;
+     
+     cout << "coding time = ";
+     coding.Show();
+     cout << endl;
+     
+     cout << "fixing time = ";
+     fixing.Show();
+     cout << endl;
+     total = coding + fixing;
+     
+     // operator notation
+     cout << "coding + fixing = ";
+     total.Show();
+     cout << endl;
+     
+     Times morefixing(3, 28);
+     cout << "more fixing time = ";
+     morefixing.Show();
+     cout << endl;
+     
+     total = morefixing.operator+(total);
+
+     // function notation
+     cout << "morefixing.operator+(total) = ";
+     total.Show();
+     cout << endl;
+     
+     
+     Times weeding(4, 35);
+     Times waxing(2, 47);
+     Times total1;
+     Times diff;
+     Times adjusted;
+ 
+     
+     cout << "weeding time = ";
+     weeding.Show();
+     cout << endl;
+     cout << "waxing time = ";
+     waxing.Show();
+     cout << endl;
+     
+     cout << "total work time = ";
+     total1 = weeding + waxing; // use operator+()
+     total1.Show();
+     cout << endl;
+     
+     diff = weeding - waxing; // use operator-()
+     cout << "weeding time - waxing time = ";
+     diff.Show();
+     cout << endl;
+     
+     adjusted = total1 * 1.5; // use operator+()
+     cout << "adjusted work time = ";
+     adjusted.Show();
+     cout << endl;
+     
+     
+     Times aida(3, 35);
+     Times tosca(2, 48);
+     Times temp;
+     cout << "Aida and Tosca:\n";
+     cout << aida<<"; " << tosca << endl;
+     
+     temp = aida + tosca; // operator+()
+     cout << "Aida + Tosca: " << temp << endl;
+     
+     temp = aida* 1.17; // member operator*()
+     cout << "Aida * 1.17: " << temp << endl;
+     cout << "10.0 * Tosca: " << 10.0 * tosca << endl;
 }

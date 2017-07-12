@@ -13,6 +13,9 @@
 		9D44E6D31ECC73F500DA6667 /* FunctionPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D44E6D11ECC73F400DA6667 /* FunctionPointer.cpp */; };
 		9D4D00441ECDE3DD003EB501 /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D00421ECDE3DD003EB501 /* References.cpp */; };
 		9D4D00471ECF3396003EB501 /* FunctionTemplates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D00451ECF3396003EB501 /* FunctionTemplates.cpp */; };
+		9D4D004A1ED4793A003EB501 /* Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D00481ED4793A003EB501 /* Stock.cpp */; };
+		9D4D004D1ED70B38003EB501 /* operatorOverloading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D004B1ED70B38003EB501 /* operatorOverloading.cpp */; };
+		9D4D00501EDC5288003EB501 /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D004E1EDC5288003EB501 /* MyString.cpp */; };
 		9D6A1D321CBD1F1B00898CC6 /* TemplatesExampl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A1D311CBD1F1B00898CC6 /* TemplatesExampl.cpp */; };
 		9D6D4BD81CC64C37004532C8 /* Newoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D4BD71CC64C37004532C8 /* Newoperator.cpp */; };
 		9D6D4BDA1CC7972B004532C8 /* NameSpaceValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D4BD91CC7972B004532C8 /* NameSpaceValues.cpp */; };
@@ -79,6 +82,12 @@
 		9D4D00431ECDE3DD003EB501 /* References.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = References.hpp; path = ../References.hpp; sourceTree = "<group>"; };
 		9D4D00451ECF3396003EB501 /* FunctionTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionTemplates.cpp; sourceTree = "<group>"; };
 		9D4D00461ECF3396003EB501 /* FunctionTemplates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FunctionTemplates.hpp; path = ../FunctionTemplates.hpp; sourceTree = "<group>"; };
+		9D4D00481ED4793A003EB501 /* Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stock.cpp; sourceTree = "<group>"; };
+		9D4D00491ED4793A003EB501 /* Stock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stock.hpp; path = ../Stock.hpp; sourceTree = "<group>"; };
+		9D4D004B1ED70B38003EB501 /* operatorOverloading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = operatorOverloading.cpp; sourceTree = "<group>"; };
+		9D4D004C1ED70B38003EB501 /* operatorOverloading.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = operatorOverloading.hpp; path = ../operatorOverloading.hpp; sourceTree = "<group>"; };
+		9D4D004E1EDC5288003EB501 /* MyString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyString.cpp; sourceTree = "<group>"; };
+		9D4D004F1EDC5288003EB501 /* MyString.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MyString.hpp; path = ../MyString.hpp; sourceTree = "<group>"; };
 		9D6A1D311CBD1F1B00898CC6 /* TemplatesExampl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TemplatesExampl.cpp; sourceTree = "<group>"; };
 		9D6D4BD71CC64C37004532C8 /* Newoperator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Newoperator.cpp; sourceTree = "<group>"; };
 		9D6D4BD91CC7972B004532C8 /* NameSpaceValues.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NameSpaceValues.cpp; sourceTree = "<group>"; };
@@ -241,6 +250,9 @@
 				9DDBB27C1EB0A94D00FB6624 /* structure.cpp */,
 				9D4D00421ECDE3DD003EB501 /* References.cpp */,
 				9D4D00451ECF3396003EB501 /* FunctionTemplates.cpp */,
+				9D4D00481ED4793A003EB501 /* Stock.cpp */,
+				9D4D004B1ED70B38003EB501 /* operatorOverloading.cpp */,
+				9D4D004E1EDC5288003EB501 /* MyString.cpp */,
 			);
 			name = LearnCpppart2;
 			path = ../LearnCpppart2;
@@ -258,6 +270,9 @@
 				9D4D00431ECDE3DD003EB501 /* References.hpp */,
 				9D44E6D21ECC73F400DA6667 /* FunctionPointer.hpp */,
 				9D4D00461ECF3396003EB501 /* FunctionTemplates.hpp */,
+				9D4D004C1ED70B38003EB501 /* operatorOverloading.hpp */,
+				9D4D004F1EDC5288003EB501 /* MyString.hpp */,
+				9D4D00491ED4793A003EB501 /* Stock.hpp */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -338,6 +353,7 @@
 				9DDBB2791EADE0E800FB6624 /* Start.cpp in Sources */,
 				9DFBBCA71CE360300073F335 /* UsingQueue.cpp in Sources */,
 				9DC1816A1EC2EB7D0013B3DE /* FileOutPut.cpp in Sources */,
+				9D4D00501EDC5288003EB501 /* MyString.cpp in Sources */,
 				9D6D4BE71CC8E6AC004532C8 /* Stock10.cpp in Sources */,
 				9D6D4BE41CC7CC9F004532C8 /* UseStock.cpp in Sources */,
 				9DFBBCB31CE375800073F335 /* TablePlayer.cpp in Sources */,
@@ -348,8 +364,10 @@
 				9DF23D1F1CA9782D0050BB5F /* OutPutFile.cpp in Sources */,
 				9D159AA11C84773200719056 /* Structure.cpp in Sources */,
 				9DFBBCA21CE334740073F335 /* Queue.cpp in Sources */,
+				9D4D004D1ED70B38003EB501 /* operatorOverloading.cpp in Sources */,
 				9D159AA41C85AC9B00719056 /* Pointers.cpp in Sources */,
 				9D6D4BF81CCF9A77004532C8 /* Usetime.cpp in Sources */,
+				9D4D004A1ED4793A003EB501 /* Stock.cpp in Sources */,
 				9D6A1D321CBD1F1B00898CC6 /* TemplatesExampl.cpp in Sources */,
 				9DF23D261CB5494D0050BB5F /* FunctionPointer.cpp in Sources */,
 				9D6D4BE91CC8E96A004532C8 /* UseStock10.cpp in Sources */,

@@ -8,11 +8,7 @@
 
 #include "FunctionTemplates.hpp"
 
-template <typename T>
-void swap (T &a, T &b);
 
-template <typename T>  // new template
-void swap (T *a, T *b,const int n);
 
 const int Lim = 8;
 void functionTemplateExample() {
@@ -51,7 +47,7 @@ void functionTemplateExample() {
 }
 
 template <typename T>
-void swap(T a, T b) {
+void swap(T &a, T &b) {
     T temp;
     temp = a;
     a = b;

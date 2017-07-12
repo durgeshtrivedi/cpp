@@ -12,7 +12,8 @@
 #include <cstring>
 #include "structure.hpp"
 #include "stdheader.hpp"
-
+#include "Stock.hpp"
+#include "operatorOverloading.hpp"
 
 void arrayExample();
 void stringExample();
@@ -26,4 +27,6 @@ void functionPointer();
 void functionPointerExample();
 void passByReferenceExample();
 void functionTemplateExample();
+void classExample();
+void operatorOVerloadingExample();
 
