@@ -34,8 +34,10 @@
 		9D8713B21CEDD6FE00F34439 /* StringSmarPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8713B01CEDD6FE00F34439 /* StringSmarPtr.cpp */; };
 		9D8713B41CEDF19000F34439 /* IteratorValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8713B31CEDF19000F34439 /* IteratorValue.cpp */; };
 		9D8713B61CF5BDF200F34439 /* LambadaExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8713B51CF5BDF200F34439 /* LambadaExpression.cpp */; };
+		9D8D5D2F1F618D4000F46A1B /* ComplexNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D5D2D1F618D4000F46A1B /* ComplexNumber.cpp */; };
 		9D9A92281CA1775200860197 /* readCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A92261CA1775200860197 /* readCharacters.cpp */; };
 		9D9A922A1CA1862E00860197 /* TwodimensionalArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A92291CA1862E00860197 /* TwodimensionalArray.cpp */; };
+		9DB58D571F5D86570075E926 /* MyException.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DB58D561F5D86570075E926 /* MyException.hpp */; };
 		9DBA39C21CE9D6D30084FF5C /* MutipleInhertance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C01CE9D6D30084FF5C /* MutipleInhertance.cpp */; };
 		9DBA39C51CE9E13B0084FF5C /* VirtualBAseClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */; };
 		9DC1816A1EC2EB7D0013B3DE /* FileOutPut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */; };
@@ -113,9 +115,12 @@
 		9D8713B11CEDD6FE00F34439 /* StringSmarPtr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringSmarPtr.hpp; sourceTree = "<group>"; };
 		9D8713B31CEDF19000F34439 /* IteratorValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IteratorValue.cpp; sourceTree = "<group>"; };
 		9D8713B51CF5BDF200F34439 /* LambadaExpression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LambadaExpression.cpp; sourceTree = "<group>"; };
+		9D8D5D2D1F618D4000F46A1B /* ComplexNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComplexNumber.cpp; path = headers/ComplexNumber.cpp; sourceTree = "<group>"; };
+		9D8D5D2E1F618D4000F46A1B /* ComplexNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ComplexNumber.hpp; sourceTree = "<group>"; };
 		9D9A92241CA03B1900860197 /* Operators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Operators.cpp; sourceTree = "<group>"; };
 		9D9A92261CA1775200860197 /* readCharacters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readCharacters.cpp; sourceTree = "<group>"; };
 		9D9A92291CA1862E00860197 /* TwodimensionalArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwodimensionalArray.cpp; sourceTree = "<group>"; };
+		9DB58D561F5D86570075E926 /* MyException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyException.hpp; sourceTree = "<group>"; };
 		9DBA39C01CE9D6D30084FF5C /* MutipleInhertance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MutipleInhertance.cpp; sourceTree = "<group>"; };
 		9DBA39C11CE9D6D30084FF5C /* MutipleInhertance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MutipleInhertance.hpp; sourceTree = "<group>"; };
 		9DBA39C31CE9E13B0084FF5C /* VirtualBAseClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualBAseClass.cpp; sourceTree = "<group>"; };
@@ -243,6 +248,8 @@
 			children = (
 				9DDBB2771EADE0CD00FB6624 /* headers */,
 				9DDBB2781EADE0E800FB6624 /* Start.cpp */,
+				9D8D5D2D1F618D4000F46A1B /* ComplexNumber.cpp */,
+				9DB58D561F5D86570075E926 /* MyException.hpp */,
 				9DC181681EC2EB7D0013B3DE /* FileOutPut.cpp */,
 				9DDBB2801EB0B56500FB6624 /* Pointers.cpp */,
 				9DC1816B1EC32E120013B3DE /* ArrayPointer.cpp */,
@@ -273,6 +280,7 @@
 				9D4D004C1ED70B38003EB501 /* operatorOverloading.hpp */,
 				9D4D004F1EDC5288003EB501 /* MyString.hpp */,
 				9D4D00491ED4793A003EB501 /* Stock.hpp */,
+				9D8D5D2E1F618D4000F46A1B /* ComplexNumber.hpp */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -379,7 +387,9 @@
 				9DFBBCB01CE36EF20073F335 /* RatedPlayer.cpp in Sources */,
 				9D9A922A1CA1862E00860197 /* TwodimensionalArray.cpp in Sources */,
 				9D6D4BDF1CC7AA71004532C8 /* UsingNAmeSapceEg.cpp in Sources */,
+				9D8D5D2F1F618D4000F46A1B /* ComplexNumber.cpp in Sources */,
 				9DF23D211CB29DAB0050BB5F /* arrayElements.cpp in Sources */,
+				9DB58D571F5D86570075E926 /* MyException.hpp in Sources */,
 				9D6D4BE21CC7C0EA004532C8 /* Stock0.cpp in Sources */,
 				9DBA39C51CE9E13B0084FF5C /* VirtualBAseClass.cpp in Sources */,
 			);

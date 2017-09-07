@@ -8,7 +8,6 @@
 
 #include "structure.hpp"
 
-
 void structExample() {
 
 

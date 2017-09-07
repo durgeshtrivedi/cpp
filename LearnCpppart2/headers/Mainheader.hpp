@@ -14,6 +14,15 @@
 #include "stdheader.hpp"
 #include "Stock.hpp"
 #include "operatorOverloading.hpp"
+#include "MyException.hpp"
+#include <fstream>
+#include <vector>
+#include <map>
+#include <set>
+#include <Stack>
+#include <queue>
+
+
 
 void arrayExample();
 void stringExample();
@@ -29,4 +38,16 @@ void passByReferenceExample();
 void functionTemplateExample();
 void classExample();
 void operatorOVerloadingExample();
-
+void exceptionHandleing();
+void writingFile();
+void readFile();
+void parsingTextFile();
+void structandPading();
+void rwBinaryFile();
+void vectorTemplate();
+void mapTemplate();
+void setTemplate();
+void stackAndQueue();
+void dequeueAndFriend();
+void assigmentOperator();
+void leftShitOperator();
